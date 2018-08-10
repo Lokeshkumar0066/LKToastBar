@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)BtnToast:(id)sender;
 
 @end
 
