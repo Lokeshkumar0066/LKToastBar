@@ -27,12 +27,21 @@ Now, you can show ToastView with status message:
 # Customization
 toastView.toastAnimationStyle = ToastAnimationStyleMedium;
 toastView.titleColor = [UIColor redColor];
+
 toastView.messageColor = [UIColor greenColor];
+
 toastView.toastColor = [UIColor blackColor];
+
 toastView.dismissColor = [UIColor whiteColor];
+
 toastView.errorMessageFontFamily = @"Helvetica-Bold";
+
 toastView.errorMessageFontSize = 13.0;
+
 toastView.titleFontFamily = @"Helvetica-Bold";
+
 toastView.titleFontSize = 13.0;
+
 toastView.dismissFontFamily = @"Helvetica-Bold";
+
 toastView.dismissFontSize = 13.0;
