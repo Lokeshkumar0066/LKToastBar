@@ -60,13 +60,22 @@ toastView.dismissFontSize = 13.0;
 
 ### Swift
 
-toastView.titleColor = UIColor .red;
-toastView.messageColor = UIColor .green;
-toastView.toastColor = UIColor .black;
-toastView.dismissColor = UIColor .white;
-toastView.errorMessageFontFamily = "Helvetica-Bold";
-toastView.errorMessageFontSize = 13.0;
-toastView.titleFontFamily = "Helvetica-Bold";
-toastView.titleFontSize = 13.0;
-toastView.dismissFontFamily = "Helvetica-Bold";
-toastView.dismissFontSize = 13.0;
+toastView.titleColor = UIColor .red
+
+toastView.messageColor = UIColor .green
+
+toastView.toastColor = UIColor .black
+
+toastView.dismissColor = UIColor .white
+
+toastView.errorMessageFontFamily = "Helvetica-Bold"
+
+toastView.errorMessageFontSize = 13.0
+
+toastView.titleFontFamily = "Helvetica-Bold"
+
+toastView.titleFontSize = 13.0
+
+toastView.dismissFontFamily = "Helvetica-Bold"
+
+toastView.dismissFontSize = 13.0
