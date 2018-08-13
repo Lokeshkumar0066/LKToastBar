@@ -1,4 +1,7 @@
 # ToastBar
+
+![toast](https://user-images.githubusercontent.com/26429027/44013042-cb03d998-9ee0-11e8-8d79-f74a54d9eb70.gif)
+
 LKToastView is a simple and light weight iOS like toast view for your iOS app written in Objective C, you can use the toast view in Swift as well by creating the Bridging Header and adding/importing the code.
 
 # Example
