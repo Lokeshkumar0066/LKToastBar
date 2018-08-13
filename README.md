@@ -8,14 +8,12 @@ LKToastView is a simple and light weight iOS like toast view for your iOS app wr
 To run the example project, clone the repo, and run the framawork file.
 
 # Features
- ToastView Customization
+ ToastView Customization                                                                  
  Easy & Quick Integration
 
 # Requirements
-iOS 9.0+
-
-Xcode 9.1+
-
+iOS 9.0+                                                                  
+Xcode 9.1+                                                                  
 Swift 4.0+
 
 # Manual
