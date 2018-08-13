@@ -25,11 +25,16 @@ Include LKToastBar wherever you need to add the #import <LKToastBar/LKToastBar.h
 
 
 Now, you can show ToastView with status message:
-
+### Objective C
     [toastView initWithDefaultNibAndDelegate:self message:@"please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple" dismissTitle:@"Dismiss" titleToast:@"Alert" vc:self];
+    
+### Swift
+        toastView .initWithDefaultNibAndDelegate(self, message: "please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple", dismissTitle: "Dismiss", titleToast: "Alert", vc: self)
 
 
 # Customization
+
+### Objective C
 toastView.toastAnimationStyle = ToastAnimationStyleMedium;
 
 toastView.titleColor = [UIColor redColor];
@@ -50,4 +55,18 @@ toastView.titleFontSize = 13.0;
 
 toastView.dismissFontFamily = @"Helvetica-Bold";
 
+toastView.dismissFontSize = 13.0;
+
+
+### Swift
+
+toastView.titleColor = UIColor .red;
+toastView.messageColor = UIColor .green;
+toastView.toastColor = UIColor .black;
+toastView.dismissColor = UIColor .white;
+toastView.errorMessageFontFamily = "Helvetica-Bold";
+toastView.errorMessageFontSize = 13.0;
+toastView.titleFontFamily = "Helvetica-Bold";
+toastView.titleFontSize = 13.0;
+toastView.dismissFontFamily = "Helvetica-Bold";
 toastView.dismissFontSize = 13.0;
