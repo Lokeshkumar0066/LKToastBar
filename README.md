@@ -5,7 +5,7 @@
 LKToastView is a simple and light weight iOS like toast view for your iOS app written in Objective C, you can use the toast view in Swift as well by creating the Bridging Header and adding/importing the code.
 
 # Example
-To run the example project, clone the repo, and run the framawork file.
+To run the example project, clone the repo, and run the framework file.
 
 # Features
  ToastView Customization                                                                  
