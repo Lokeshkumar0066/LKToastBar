@@ -29,7 +29,7 @@ Now, you can show ToastView with status message:
     [toastView initWithDefaultNibAndDelegate:self message:@"please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple" dismissTitle:@"Dismiss" titleToast:@"Alert" vc:self];
     
 ### Swift
-        toastView .initWithDefaultNibAndDelegate(self, message: "please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple", dismissTitle: "Dismiss", titleToast: "Alert", vc: self)
+    toastView .initWithDefaultNibAndDelegate(self, message: "please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple please check, how's the toast is? please check, how's the toast is? please check, how's the toast is? ple", dismissTitle: "Dismiss", titleToast: "Alert", vc: self)
 
 
 # Customization
