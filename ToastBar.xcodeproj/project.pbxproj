@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181C2DC621214A32009F62E2 /* LKToastBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181C2DC421214A28009F62E2 /* LKToastBar.framework */; };
+		181C2DC721214A32009F62E2 /* LKToastBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 181C2DC421214A28009F62E2 /* LKToastBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18DA35E9211D581E00783722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA35E8211D581E00783722 /* AppDelegate.m */; };
 		18DA35EC211D581E00783722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA35EB211D581E00783722 /* ViewController.m */; };
 		18DA35EF211D581E00783722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA35ED211D581E00783722 /* Main.storyboard */; };
@@ -16,8 +18,6 @@
 		18DA3601211D581F00783722 /* ToastBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3600211D581F00783722 /* ToastBarTests.m */; };
 		18DA360C211D581F00783722 /* ToastBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA360B211D581F00783722 /* ToastBarUITests.m */; };
 		18DA3622211D58DB00783722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DA3621211D58DB00783722 /* UIKit.framework */; };
-		18DA3625211D593800783722 /* LKToastBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DA3623211D592E00783722 /* LKToastBar.framework */; };
-		18DA3626211D593800783722 /* LKToastBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18DA3623211D592E00783722 /* LKToastBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18DA362A211D5C2000783722 /* SwiftToastViewClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA3629211D5C2000783722 /* SwiftToastViewClassVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18DA3626211D593800783722 /* LKToastBar.framework in Embed Frameworks */,
+				181C2DC721214A32009F62E2 /* LKToastBar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		181C2DC421214A28009F62E2 /* LKToastBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LKToastBar.framework; sourceTree = "<group>"; };
 		18DA35E4211D581E00783722 /* ToastBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DA35E7211D581E00783722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18DA35E8211D581E00783722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		18DA360B211D581F00783722 /* ToastBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastBarUITests.m; sourceTree = "<group>"; };
 		18DA360D211D581F00783722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DA3621211D58DB00783722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		18DA3623211D592E00783722 /* LKToastBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LKToastBar.framework; sourceTree = "<group>"; };
 		18DA3628211D5C2000783722 /* ToastBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToastBar-Bridging-Header.h"; sourceTree = "<group>"; };
 		18DA3629211D5C2000783722 /* SwiftToastViewClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToastViewClassVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DA3622211D58DB00783722 /* UIKit.framework in Frameworks */,
-				18DA3625211D593800783722 /* LKToastBar.framework in Frameworks */,
+				181C2DC621214A32009F62E2 /* LKToastBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,10 +126,10 @@
 		18DA35E6211D581E00783722 /* ToastBar */ = {
 			isa = PBXGroup;
 			children = (
+				181C2DC421214A28009F62E2 /* LKToastBar.framework */,
 				18DA362D211D5DE700783722 /* App Delegate */,
 				18DA362C211D5DD900783722 /* Objective C */,
 				18DA362B211D5DD300783722 /* Swift */,
-				18DA3623211D592E00783722 /* LKToastBar.framework */,
 				18DA35ED211D581E00783722 /* Main.storyboard */,
 				18DA35F0211D581E00783722 /* Assets.xcassets */,
 				18DA35F2211D581E00783722 /* LaunchScreen.storyboard */,
@@ -523,6 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ToastBar",
@@ -533,6 +534,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.LK.ToastBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ToastBar/ToastBar-Bridging-Header.h";
