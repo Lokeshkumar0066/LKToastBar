@@ -10,7 +10,9 @@ To run the example project, clone the repo, and run the framawork file.
 
 # Requirements
 iOS 9.0+
+
 Xcode 9.1+
+
 Swift 4.0+
 
 # Manual
@@ -26,6 +28,7 @@ Now, you can show ToastView with status message:
 
 # Customization
 toastView.toastAnimationStyle = ToastAnimationStyleMedium;
+
 toastView.titleColor = [UIColor redColor];
 
 toastView.messageColor = [UIColor greenColor];
